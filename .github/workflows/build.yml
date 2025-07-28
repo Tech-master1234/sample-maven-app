@@ -19,4 +19,6 @@ jobs:
           distribution: 'temurin'
 
       - name: Build with Maven
-        run: mvn clean package -Xmx3072m
+        run: mvn clean package
+        env:
+          MAVEN_OPTS: -Xmx3072m
