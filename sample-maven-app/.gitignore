@@ -1,0 +1,4 @@
+# sample-maven-app/.gitignore
+target/
+*.log
+*.class
